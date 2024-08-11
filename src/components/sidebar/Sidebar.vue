@@ -14,16 +14,16 @@ import {HomeFilled,Notebook,User,Message,Setting, UserFilled} from "@element-plu
                         <HomeFilled/>
                     </el-icon>
                 </router-link>
-                <router-link to="/about" class="router">
+                <router-link to="/teach" class="router">
                     <el-icon><Notebook /></el-icon>
                 </router-link>
-                <router-link to="/" class="router">
+                <router-link to="/user" class="router">
                     <el-icon><User /></el-icon>
                 </router-link>
-                <router-link to="/" class="router">
+                <router-link to="/messages" class="router">
                     <el-icon><Message /></el-icon>
                 </router-link>
-                <router-link to="/" class="router">
+                <router-link to="/settings" class="router">
                     <el-icon><Setting /></el-icon>
                 </router-link>
             </div>
