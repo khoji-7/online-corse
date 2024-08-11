@@ -1,0 +1,27 @@
+{
+  "name": "online-course",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@mui/icons-material": "^5.16.7",
+    "element-plus": "^2.8.0",
+    "module": "^1.2.5",
+    "node": "^22.6.0",
+    "vue": "^3.4.35",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.0.29"
+  }
+}
