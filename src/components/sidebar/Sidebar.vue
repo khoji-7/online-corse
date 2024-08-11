@@ -48,22 +48,59 @@ import {HomeFilled,Notebook,User,Message,Setting, UserFilled} from "@element-plu
     color: white;
     align-items: center;
     justify-content: space-evenly;
+
     .routeParent {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: 40vh;
     }
-    .router{
+
+    .router {
         width: 35px;
         height: 35px;
         color: white;
-        :hover{
+        :hover {
             color: black;
             background-color: white;
             transition: 0.2s ease-out;
         }
     }
-    
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100px;
+        height: 80vh;
+
+        .router {
+            width: 30px;
+            height: 30px;
+        }
+
+        .logo {
+            width: 80px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 60px;
+        height: 70vh;
+
+        .router {
+            width: 25px;
+            height: 25px;
+        }
+
+        .logo {
+            width: 60px;
+        }
+    }
 }
 </style>
