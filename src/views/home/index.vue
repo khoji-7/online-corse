@@ -1,8 +1,7 @@
+<script lang="ts" setup>
+import Course from "../../components/CourseLang.vue"    
+</script>
+
 <template>
-
-    <h1>
-    home page
-    </h1>
-        
-
+    <Course/>
 </template>
