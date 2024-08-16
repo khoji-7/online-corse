@@ -2,7 +2,7 @@
 import CourseLang from "../../components/CourseLang.vue"
 import CourseSec from "../../components/CourseSection.vue"
 import Account from "../../components/account.vue"
-import Stat from "../../components/Stat.vue"
+import Stat from "../../components/stat.vue"
 </script>
 
 <template>
