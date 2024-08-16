@@ -13,7 +13,7 @@
                     It’s good to see you again.
                 </p>
             </div>
-            <img src="../assets/illustration.png" alt="" class="courseMainImg">
+            <img src="@/assets/illustration.png" alt="" class="courseMainImg">
         </div>
         <div class="courseLang">
             <div class="courseLangMain">
