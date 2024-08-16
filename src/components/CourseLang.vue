@@ -45,8 +45,8 @@
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 650px;
-    gap: 20px;
+    max-width: 620px;
+    gap: 10px;
     height: auto;
 }
 
@@ -54,7 +54,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 15px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     height: 160px;
     background-color: rgb(245, 245, 247);
@@ -86,7 +86,6 @@
     max-width: 620px;
     width: 100%;
     justify-content: space-between;
-    margin: 0 auto;
    
 }
 .courseLangMain{
