@@ -7,7 +7,7 @@ import SideBar from "./components/sidebar/Sidebar.vue";
 
 <template>
   <div class="app">
-    <SideBar/>
+    <SideBar class="sidebarApp"/>
     <div class="main">
       <router-view/>
     </div>
@@ -26,6 +26,11 @@ import SideBar from "./components/sidebar/Sidebar.vue";
   .main{
   flex: 1 1 0;
   padding: 30px;
+  }
+  .sidebarApp{
+    position: sticky;
+    top:10px;
+    
   }
 }
 

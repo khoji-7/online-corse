@@ -24,4 +24,11 @@ import Stat from "../../components/stat.vue"
         flex-direction: row;
         gap: 20px;
     }
+    @media (max-width:1140px){
+        .content{
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
 </style>
