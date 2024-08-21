@@ -28,7 +28,6 @@ import Stat from "../../components/stat.vue"
         .content{
             display: flex;
             flex-direction: column;
-
         }
     }
 </style>

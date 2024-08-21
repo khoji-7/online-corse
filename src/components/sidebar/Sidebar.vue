@@ -43,7 +43,7 @@ import {
 
 <style lang="scss" scoped>
 .container {
-  width: 130px;
+  max-width: 130px;
   height: 90vh;
   background-color: black;
   border-radius: 30px;
@@ -65,14 +65,14 @@ import {
     width: 35px;
     height: 35px;
     color: white;
-    :hover {
-      color: black;
-      background-color: white;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
+    
   }
+  .router:hover {
+      color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    }
   .active-route {
     color: black;
     background-color: white;
@@ -85,35 +85,4 @@ import {
   }
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 100px;
-    height: 80vh;
-
-    .router {
-      width: 30px;
-      height: 30px;
-    }
-
-    .logo {
-      width: 80px;
-    }
-  }
-}
-
-@media (max-width: 480px) {
-  .container {
-    width: 60px;
-    height: 70vh;
-
-    .router {
-      width: 25px;
-      height: 25px;
-    }
-
-    .logo {
-      width: 60px;
-    }
-  }
-}
 </style>
