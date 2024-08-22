@@ -32,10 +32,10 @@ import SideBar from "./components/sidebar/Sidebar.vue";
   position: fixed;
   top: 10;
   left: 0;
-  max-width: 130px; /* Sidebar kengligini aniqlang */
-  height: 100vh; /* Ekranning to'liq balandligi */
-  padding: 10px; /* Qo'shimcha joy */
-  background-color: white; /* Kerakli background rangini belgilang */
-  z-index: 1000; /* Ushbu qator sidebar ustida boshqa elementlar chiqib qolmasligi uchun */
+  max-width: 130px; 
+  height: 100vh; 
+  padding: 10px; 
+  background-color: white; 
+  z-index: 1000; 
 }
 </style>

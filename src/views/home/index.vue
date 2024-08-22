@@ -22,7 +22,9 @@ import Stat from "../../components/stat.vue"
     .content {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        justify-content: space-evenly;
+        gap: 60px;
+        
     }
     @media (max-width:1140px){
         .content{
