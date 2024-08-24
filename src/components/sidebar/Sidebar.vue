@@ -43,11 +43,10 @@ import {
 
 <style lang="scss" scoped>
 .container {
-  max-width: 130px;
+  width: 130px;
   height: 90vh;
   background-color: black;
   border-radius: 30px;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -81,7 +80,7 @@ import {
   }
 
   .logo {
-    width: 100px;
+    width: 55px;
   }
 }
 
